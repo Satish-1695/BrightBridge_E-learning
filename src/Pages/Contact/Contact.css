@@ -1,0 +1,132 @@
+.contact-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 60px 50px;
+    padding: 30px;
+    line-height: 25px;
+
+}
+.contact-info .contact-info-left{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 45px;
+    padding: 0 10px;
+    font-size: 20px;
+
+}
+.contact-info .contact-info-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 80px;
+    gap: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.contact-section .contact-left{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.contact-left form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+form .form-group {
+    margin-bottom: 15px;
+}
+form .form1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+form .form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+    gap: 5px;
+}
+
+.form-div input{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-left .msg-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.msg-div textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.contact-left .send-msg-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.send-msg-div button{
+    width: 140px;
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 5px;
+    /* font-size: 15px; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contact-section .contact-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 0 20px;
+    gap: 40px;
+    /* border: 1px solid red; */
+}
+.contact-right .contact-right-child{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 20px 0;
+}
+/* .contact-right-child img{
+    width: 40px;
+} */

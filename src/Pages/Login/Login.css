@@ -1,0 +1,181 @@
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding:30px;
+    margin: 80px;
+    gap: 90px;
+    /* border: 1px solid red; */
+}
+.login-section .login-left{
+    display: flex;
+    /* width: 40%; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    font-size: 14px;
+}
+.login-left .student-testimonial{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+.login-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between; 
+    background-color: white;
+    box-shadow: 0.5px 0.5px 0.5px 1px #d1cece;
+    padding: 20px 0;
+    border-radius: 8px;
+ }
+ .login-card-container .user-review{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    line-height: 25px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+ }
+ .login-card-container hr{
+    width: 100%;
+ }
+ .login-card-container .student-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 8px 0;
+    margin-top: 10px;
+ }
+ .student-div .student-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding:0 30px;
+ }
+ .student-details img{
+    width: 65px;
+    height: 45px;
+    border-radius: 5px;
+ }
+ .student-div .student-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+ }
+ .student-story button{
+    height: 50px;
+    width: 120px;
+    background-color: #F7F7F8;
+    border: 2px solid #F1F1F3;
+    outline: none;
+    color: #262626;
+    font-weight: 550;
+    border-radius: 10px;
+ }
+ .login-left .btns-div{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+ }
+ .btns-div img{
+    width: 40px;
+ }
+ .login-section .login-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding:30px;
+    background-color: white;
+ }
+ .login-right .login-content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+ }
+ .login-right form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 0;
+    gap: 10px;
+ }
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .form-group input[type="email"],input[type="password"]{
+    width: 470px;
+    border: 1.5px solid #F1F1F3;
+    padding: 15px;
+    border-radius: 8px;
+}
+form .forgot{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 3px;
+    font-size: 12px;
+}
+form .checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+.checkbox p{
+    font-size: 12px;
+}
+form button{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+form .google{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #F1F1F3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom:15px ;
+}
+form .account-info{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}

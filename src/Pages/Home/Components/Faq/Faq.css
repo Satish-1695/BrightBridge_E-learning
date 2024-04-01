@@ -1,0 +1,114 @@
+.faq-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    margin: 80px;
+    background-color: white;
+    gap: 50px;
+    /* border: 1px solid red; */
+}
+.faq-section .faq-left{
+    display: flex;
+    /* width: 35%; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid green; */
+    gap: 20px;
+}
+.faq-left .faq-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+.faq-content h3{
+    font-size: 25px;
+}
+.faq-content p{
+    font-size: 13px;
+}
+.faq-left button{
+    height: 35px;
+    width: 100px;
+    border: 1.2px solid #F1F1F3;
+    outline: none;
+    background-color: white;
+    color: #262626;
+    padding: 2px;
+    border-radius: 10px;
+}
+.faq-section .faq-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    /* border: 1px solid blue; */
+    padding:0 10px;
+}
+.faq-section .faq-right .wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1.5px solid #F1F1F3;
+    padding: 10px;
+    /* gap: 10px; */
+    transition: all 2s cubic-bezier(0,1,0,1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wrapper .question{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid purple; */
+}
+
+.question img{
+    width: 40px;
+}
+.reverse-arrow{
+    transform: rotate(48deg);
+}
+.wrapper .visible{
+    height: auto;
+    max-height: 99999px;
+    transition: all 0.6s cubic-bezier(1,0,1,0);
+}
+
+.wrapper .answers{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+    gap: 20px;
+    /* padding: 10px; */
+}
+.answers .first-ans{
+    display: flex;
+    font-size: 13px;
+    padding: 10px;
+
+}
+.answers .enroll-part{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.2px solid #F1F1F3;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F7F7F8;
+}
+.enroll-part img{
+    width: 35px;
+}

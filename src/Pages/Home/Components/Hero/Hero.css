@@ -1,0 +1,111 @@
+.hero-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+}
+.hero-section .top {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding: 40px 50px;
+}
+.top .top-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 8px;
+  gap: 5px;
+  border-radius: 5px;
+}
+.top .top-heading img {
+  width: 40px;
+  background-color: beige;
+}
+.top .top-heading span {
+  color: #ffb500;
+}
+.top .sub-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.top .sub-div h3 {
+  font-weight: 550;
+}
+.top .sub-div p {
+  font-size: 13px;
+}
+
+.top .top-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.top-buttons button {
+  height: 35px;
+  width: 120px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 13px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.top-buttons #view_prie {
+  color: #262626;
+  background-color: white;
+  width: 100px;
+}
+.top-buttons button:hover {
+  padding: 1px;
+  transform: scale(1.05);
+  box-shadow: 2px 2px #262626;
+}
+.hero-section .icons-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  background-color: white;
+  margin-top: 60px;
+  width: 100%;
+  box-shadow: 0.2px 0.2px 0.3px #262626;
+}
+.icons-section .icon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.icons-section .icon img {
+  width: 80px;
+  aspect-ratio: 16/9;
+  object-fit: contain;
+  filter: grayscale(1);
+}
+
+.hero-section .video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 150px;
+  box-shadow: 0.2px 0.2px 0.3px #262626;
+}
+.hero-section .video img {
+  width: 100%;
+  border-radius: 5px;
+}
