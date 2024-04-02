@@ -1,6 +1,3 @@
-![BrightBridge2](https://github.com/Satish-1695/BrightBridge_E-learning/assets/160030930/f506b157-3298-463a-884e-88d18caa3f88)
-
-
 **BrightBridge E-Learning Website**
 
 **Description:**
